@@ -13,7 +13,7 @@ public class HelloController {
     @RequestMapping(value = "/sayHi",method = {RequestMethod.POST,RequestMethod.GET})
     @ResponseBody
     public String hello(@RequestParam("heello") String hello){
-        System.out.println("进入该方法1234");
+        System.out.println("进入该方法1234555555");
         return "success";
     }
 }
